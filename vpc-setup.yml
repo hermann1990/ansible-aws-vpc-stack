@@ -13,5 +13,6 @@
         dns_hostnames: yes
         tenancy: default
         state: "{{state}}"
+        region: "{{region}}"
       register: vpcout
 
