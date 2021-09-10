@@ -27,6 +27,6 @@
         state: "{{state}}"
         cidr: "{{PubSub1cidr}}"
         map_public: yes
-        ressource_tags:
+        tags:
           Name: vprofile-pubsub1
       register: pusub1_out
