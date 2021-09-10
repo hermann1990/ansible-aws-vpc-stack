@@ -1,4 +1,4 @@
-- hosts: Ansible
+- hosts: localhost
   connection: local
   gather_facts: false
   tasks:
